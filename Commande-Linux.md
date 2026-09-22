@@ -1,18 +1,20 @@
 # Cours commande Linux
 
-Créer un fichier vide :
+## Fichiers
 
-Afficher le contenu d'un fichier :
+Créer un fichier vide : mkdir NomDuDossier
 
-Renommer ou déplacer un fichier :
+Afficher le contenu d'un fichier : cat NomDuDossier
 
-Copier un fichier :
+Renommer ou déplacer un fichier : mv AncienNom NouveauNom
 
-Supprimer un fichier :
+Copier un fichier : cp Fichier Destination
 
-Ouvrir un fichier avec l'éditeur nano :
+Supprimer un fichier : rm NomDuFichier
 
-Changer le propriétaire d'un fichier :
+Ouvrir un fichier avec l'éditeur nano : nano NomDuFichier
+
+Changer le propriétaire d'un fichier : sudo chown nouveau_propriétaire NomDuFichier
 
 Changer le groupe d'un fichier :
 
@@ -28,9 +30,9 @@ Créer un lien symbolique :
 
 Afficher le dossier courant :
 
-Changer de dossier :
+Changer de dossier : cd
 
-Revenir au dossier parent :
+Revenir au dossier parent : cd ..
 
 Revenir directement dans son dossier personnel :
 
